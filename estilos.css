@@ -1,0 +1,145 @@
+.contenido{
+
+position: absolute;
+top: 5px;
+left: 550px;
+background: #6E6E6E;
+height: 30px;
+width: 200px;
+}
+.triger{
+	position: relative;
+	top: 5px;
+	left: 50px;
+	background: #FF0040;
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+}
+#h{
+	display: none;
+}
+.fo1{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: -150px;
+	width: 500px;
+	height: 400px;
+	background: url(h1.jpg);
+	background-size:cover;
+	z-index: 10;
+
+}
+input:checked + .evento .fo1{
+	display: block;
+}
+.negri{
+	position: relative;
+	width: 15px;
+	height: 15px;
+	background: #151515;
+	border-radius: 15px;
+	top: 2px;
+	left: 2px;
+	display: none;
+}
+input:checked + .evento .triger .negri{
+	display: block;
+	}
+
+	/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+
+
+.triger1{
+	position: relative;
+	top: -15px;
+	left: 80px;
+	background: #FF0040;
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+	z-index: 1000;
+}
+#h1{
+	display: none;
+}
+.fo2{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: -150px;
+	width: 500px;
+	height: 400px;
+	background: url(h2.jpeg);
+	z-index: 20;
+	background-size:cover;
+}
+input:checked + .evento1 .fo2{
+	display: block;
+	}
+input:checked + .evento1 .triger1 .negri{
+	display: block;
+	}
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+	.triger2{
+	position: relative;
+	top: -35px;
+	left: 110px;
+	background: #FF0040;
+	width: 20px;
+	height: 20px;
+	border-radius: 15px;
+}
+#h2{
+	display: none;
+}
+.fo3{
+	display: none;
+	position: absolute;
+	top: 35px;
+	left: -150px;
+	width: 500px;
+	height: 400px;
+	background: url(h3.jpg);
+	z-index: 30;
+	background-size:cover;
+}
+input:checked + .evento2 .fo3{
+	display: block;
+	}
+input:checked + .evento2 .triger2 .negri{
+	display: block;
+	}
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+.rejoda{
+	position:absolute;
+	top: 35px;
+    left: 380px;
+	width: 540px;
+	height:410px;
+	background: #B40431;
+	z-index: 1;
+
+}
+/*dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd*/
+.boton{
+	position: absolute;
+	top: 500px;
+	left: 100px;
+	background: #B40431;
+	width: 200px;
+	height: 200px;
+}
+.cosa{
+	position: relative;
+	top: 40px;
+	left: 60px;
+	background: #F2F2F2;
+	width: 100px;
+	height: 50px;
+	display: none;
+}
+.boton:active .cosa{
+	display: block;
+}
